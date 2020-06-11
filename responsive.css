@@ -289,18 +289,11 @@
         margin-top: 18px;
         border-radius: 20px;
         padding-left: 20px;
-        border:none;
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
         -ms-appearance: none;
     }
-    
-      .section_search input::-webkit-outer-spin-button,
-      .section_search input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-      }  
       
       .section_search .select_2{
         width: 90%;
@@ -313,10 +306,11 @@
         margin-top: 63px;
         border-radius: 20px;
         padding-left: 20px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        -ms-appearance: none;
     }
-    .section_search .select_2 {
-        -moz-appearance: textfield;
-      }
 }
 @media (max-width: 320px){
     .slider{
