@@ -4,3 +4,10 @@ function toggle() {
     // console.log('hello');
     
 }
+
+window.addEventListener('scroll', function () {
+    var navbar = document.querySelector(".navbar")
+    navbar.classList.toggle("active", scrollY > 0);
+   
+    
+})
