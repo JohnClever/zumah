@@ -193,7 +193,7 @@
     }
     .slider{
         display: flex;
-        width: 300%;
+        width: 220%;
         height: 100%;
     }
     .slide{
@@ -212,7 +212,7 @@
         text-align: center;
         background-color: rgb(60, 63, 63);
         margin-top: 2px;
-        width: 75%;
+        width: 90%;
         height: 75%;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -222,7 +222,7 @@
         border-top-right-radius: 50px;
         height: 75%;
         background-color: rgb(60, 63, 63);
-        width: 75%;
+        width: 90%;
     }
     img{
         width: 100%;
