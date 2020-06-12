@@ -741,6 +741,7 @@
         /* background: #000; */
         display: flex;
         justify-content: center;
+        flex-direction: row;
     }
     .section_seven .items form legend{
        
