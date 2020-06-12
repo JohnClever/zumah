@@ -743,9 +743,12 @@
         justify-content: center;
         flex-direction: row;
     }
+    .ll{
+        float: left;
+    }
     .section_seven .items form legend{
        
-        display: flex;
+        
         margin: 20px;
        margin-top: 0;
       
