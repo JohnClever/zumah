@@ -541,7 +541,7 @@
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        /* display: none; */
+        display: none;
     }
     .section_five .items{
         width: 95%;
@@ -685,7 +685,7 @@
         position: fixed;
         left: 50%;
         transform: translateX(-50%);
-        display: none;
+        /* display: none; */
     }
     .section_seven .items{
         width: 100%;
