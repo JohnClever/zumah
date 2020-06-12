@@ -722,7 +722,8 @@
         background-color: #d3d3d37e;
         padding-left: 20px;
         color: #000;
-        flex: 0 0 0;
+        max-height: 35px;
+        max-width: 95%;
     }
 
     .section_seven .items form p {
@@ -779,7 +780,7 @@
         background-color: #d3d3d37e;
         margin-left: 10px;
         color: rgba(0, 0, 0, 0.6);  
-       
+       max-width: 30%;
         padding-left: 10px;  
         -webkit-appearance: none;
         -moz-appearance: none;
