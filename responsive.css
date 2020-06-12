@@ -21,6 +21,7 @@
         box-sizing: border-box;
         /* min-height: 1000px; */
         position: static;
+        height: 100vh;
     }
     
     header{
@@ -787,7 +788,11 @@
         appearance: none;
         -ms-appearance: none;
     }
-    
+    .hide-element-on-keyboard {
+        display:normal;
+        height: 100%;
+        z-index: 1;
+    }
     .section_seven .items .divider{
         border-bottom: 1px solid #000;
         width: 95%;
