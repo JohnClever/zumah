@@ -743,10 +743,12 @@
         justify-content: center;
     }
     .section_seven .items form legend{
-       
+       width: 50%;
+       height: 30px;
         display: flex;
         margin: 20px;
        margin-top: 0;
+       /* background: #000; */
       
     }
     .section_seven .items form legend p{
