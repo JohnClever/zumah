@@ -22,8 +22,8 @@
         box-sizing: border-box;
         position: static;
         height: 100%;
-        overflow: hidden;
-        position: fixed;
+        /* overflow: hidden; */
+
     }
     
     header{
@@ -599,9 +599,9 @@
     }
     .section_six{
         width: 80%;
-        height: 86.5vh;
+        height: 80vh;
         /* background: #000; */
-        position: relative;
+        position: absolute;
         left: 50%;
         transform: translateX(-50%);
         /* display: none; */
@@ -654,7 +654,7 @@
        
     }
     .section_six .divider{
-        border-bottom: 1px solid #000;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.6);
         width: 85%;
         position: absolute;
         left: 50%;
@@ -692,16 +692,16 @@
     }
    
     footer{
-        position: relative;
-        height: 25px;
+        position: fixed;
+        height: 20px;
         width: 100%;
         background-color: #d3d3d3;
-        /* top: 61%;
-        transform: translateY(-100%); */
+        top: 100%;
+        transform: translateY(-100%);
         display: flex;
         align-items: center;
         justify-content: center;
-        overflow: hidden;
+         overflow: hidden;
     }
     footer p{
         text-align: center;
