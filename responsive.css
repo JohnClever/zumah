@@ -679,7 +679,7 @@
         width: 80%;
         height: 70vh;
         /* background: #000; */
-        position: absolute;
+        position: fixed;
         left: 50%;
         transform: translateX(-50%);
         /* display: none; */
@@ -768,10 +768,10 @@
         margin-left: 10px;
         color: rgba(0, 0, 0, 0.6);     
         padding-left: 10px;  
-        /* -webkit-appearance: none; */
-        /* -moz-appearance: none; */
-        /* appearance: none; */
-        /* -ms-appearance: none; */
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        -ms-appearance: none;
     }
     .section_seven .items .divider{
         border-bottom: 1px solid #000;
