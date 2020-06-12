@@ -548,7 +548,7 @@
         top: 15%;
         left: 50%;
         transform: translateX(-50%);
-        border-bottom: 1px solid #000;
+      
     }
     .section_five .items form{
         width: 100%;
@@ -558,7 +558,7 @@
         align-items: center;
     }
     .section_five .items form input{
-        width: 85%;
+        width: 95%;
         height: 35px;
         margin-top: 5px;
         border: none;
@@ -575,15 +575,14 @@
         text-decoration: none;
         color: #000;
     }
-    /* .section_five .items hr{
-       
-        margin-top: 10px;
-        width: 90%;
+    .section_five .items .divider{
+        border-bottom: 1px solid #000;
+        width: 95%;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
        
-    } */
+    }
     .section_five .items hr:focus{
         display: none;
     }
