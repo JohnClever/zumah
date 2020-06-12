@@ -63,9 +63,65 @@
     <section class="section_five">
         <div class="items">
           <form action="" method="post">
-            <input type="text" name="contact" placeholder="CONTACT" id="">
-            <input type="text" name="password" placeholder="PASSWORD" id="">
+            <input type="text" name="contact" placeholder="CONTACT" id="" required>
+            <input type="password" name="password" placeholder="PASSWORD" id="" required>
             <p><a href="#">lost password?</a></p>
+          </form> 
+         <div class="divider"></div>
+          <button type="submit"> > </button>
+        </div>
+    </section>
+    <section class="section_six">
+        <div class="items">
+            <p>JOIN</p>
+            <button type="submit">Get a servicetomato account</button>
+            <p id="create_account"><a href="#">Already have an account?</a></p>
+        </div>
+        <div class="divider"></div>
+        <p id="sign_up"><a href="#">sign in</a></p>
+    </section>
+    <section class="section_seven">
+        <div class="items">
+          <form action="" method="post">
+            <label for="username">Personal information</label>
+            <input type="text" name="username" placeholder="USERNAME" id="" required>
+            <label for="birthday">Birthday</label>
+            <div class="birthday">
+                <select name="day" id="" required>
+                    <option value="Day">DAY</option>
+                    <option value="sunday">SUN</option>
+                    <option value="monday">MON</option>
+                    <option value="tuesday">TUE</option>
+                    <option value="webnesday">WED</option>
+                    <option value="thursday">THU</option>
+                    <option value="friday">FRI</option>
+                    <option value="saturday">SAT</option>
+                </select>
+                <select name="month" id="" required>
+                    <option value="Month">MONTH</option>
+                    <option value="jan">JAN</option>
+                    <option value="feb">FEB</option>
+                    <option value="mar">MAR</option>
+                    <option value="apr">APR</option>
+                    <option value="may">MAY</option>
+                    <option value="jun">JUN</option>
+                    <option value="jul">JUL</option>
+                    <option value="aug">AUG</option>
+                    <option value="sep">SEP</option>
+                    <option value="oct">OCT</option>
+                    <option value="nov">NOV</option>
+                    <option value="dec">DEC</option>
+                </select>
+                <select name="month" id="" required>
+                    <option value="year">YEAR</option>
+                    
+                </select>
+            </div>
+            <label for="gender">Gender</label>
+           <div class="gender">
+            <legend><p>FEMALE</p> <input type="radio" name="female" id="" required></legend>
+            <legend><p>MALE</p> <input type="radio" name="male" id="" required></legend>
+           </div>
           </form> 
          <div class="divider"></div>
           <button type="submit"> > </button>
