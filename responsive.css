@@ -681,7 +681,7 @@
     }
    
     footer{
-        position: absolute;
+        position: relative;
         height: 20px;
         width: 100%;
         background-color: #d3d3d3;
