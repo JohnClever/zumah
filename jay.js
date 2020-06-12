@@ -1,3 +1,15 @@
+$(document).ready(function() {
+    /* ... */
+    var windowHeight = $(window).innerHeight();
+    $('body').css({'height':windowHeight});
+    /* ... */
+});
+
+
+
+
+
+
 var signUp = document.querySelector(".sign_up");
 function toggle() {
     signUp.classList.toggle("active")
@@ -11,9 +23,3 @@ window.addEventListener('scroll', function () {
    
     
 })
-$(document).ready(function() {
-    /* ... */
-    var windowHeight = $(window).innerHeight();
-    $('body').css({'height':windowHeight});
-    /* ... */
-});

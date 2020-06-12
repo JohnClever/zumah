@@ -12,10 +12,11 @@
     
     html{
         scroll-behavior: smooth;
-       position: static;
+        position: static;
     }
     
     body{
+        width: 100%;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -687,26 +688,27 @@
         transform: translateX(-50%);
         /* display: none; */
     }
-    .section_seven .items{
+    /* .section_seven .items{
         width: 100%;
         height: 60%;
-        /* background-color: brown; */
+        background-color: brown;
         position: absolute;
         top: 15%;
         left: 50%;
         transform: translateX(-50%);
         position: fixed;
       
-    }
-    .section_seven .items form{
+    } */
+    .section_seven form{
         width: 100%;
-        height: 100%;
+        height: 80%;
         display: flex;
+        /* background: #000; */
         flex-direction: column;
-        flex-flow: row wrap;
+        /* flex-flow: row wrap; */
         /* align-items: center; */
     }
-    .section_seven .items form label{
+    .section_seven  form label{
         text-align: left;
         font-size: 15px;
         width: 100%;
@@ -715,7 +717,7 @@
         padding-top: 10px;
        /* background: #000; */
     }
-    .section_seven .items form input{
+    .section_seven  form input{
         width: 95%;
         height: 35px;
         margin-top: 5px;
@@ -727,23 +729,23 @@
         max-width: 95%;
     }
 
-    .section_seven .items form p {
+    .section_seven  form p {
         text-align: center;
         margin-top: 5px;
         font-size: 12px;
     }
-    .section_seven .items form p a{
+    .section_seven  form p a{
         text-decoration: none;
         color: #000;
     }
-    .section_seven .items form .birthday{
+    .section_seven  form .birthday{
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
        
     }
-    .section_seven .items form .gender{
+    .section_seven  form .gender{
         width: 100%;
         /* background: #000; */
         display: flex;
@@ -753,17 +755,17 @@
     .ll,.lf{
         float: left;
     }
-    .section_seven .items form legend{
+    .section_seven  form legend{
        
         
         margin: 20px;
        margin-top: 0;
       
     }
-    .section_seven .items form legend p{
+    .section_seven  form legend p{
         font-size: 15px;
     }
-    .section_seven .items form input[type="radio"]{
+    .section_seven  form input[type="radio"]{
        width: 20px;
        height: 15px;
        margin-left: 10px;
@@ -773,7 +775,7 @@
         appearance: none;
         -ms-appearance: none; */
     }
-    .section_seven .items form select{
+    .section_seven  form select{
         width: 30%;
         height: 35px;
         margin-top: 5px;
@@ -789,14 +791,15 @@
         -ms-appearance: none;
     }
     
-    .section_seven .items .divider{
-        border-bottom: 1px solid #000;
+    .section_seven  .divider{
+        border-bottom: 0.001em solid rgba(0, 0, 0, 0.4);
+        height: 0;
         width: 95%;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);   
     }
-    .section_seven .items button{
+    .section_seven  button{
         width: 100%;
         margin-top: 15px;
         padding: 7px;
