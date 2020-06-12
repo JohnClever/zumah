@@ -589,10 +589,13 @@
     .section_five .items .divider{
         border-bottom: 1px solid rgba(0, 0, 0, 0.3);
         width: 95%;
-        position: static;
+        position: absolute;
         /* left: 50%;
         transform: translateX(-50%); */
        
+    }
+    .hide-element-on-keyboard {
+        z-index: -1;
     }
     .section_five .items button{
         width: 100%;
