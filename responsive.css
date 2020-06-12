@@ -722,6 +722,7 @@
         background-color: #d3d3d37e;
         padding-left: 20px;
         color: #000;
+        flex: 0 0 0;
     }
 
     .section_seven .items form p {
