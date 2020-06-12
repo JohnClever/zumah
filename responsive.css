@@ -576,6 +576,7 @@
         padding-left: 20px;
         color: #000;
         transition: .5s;
+        position: relative;
     }
     .section_five .items form p {
         text-align: center;
