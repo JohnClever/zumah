@@ -12,6 +12,7 @@
     
     html{
         scroll-behavior: smooth;
+       position: static;
     }
     
     body{
@@ -19,6 +20,7 @@
         padding: 0;
         box-sizing: border-box;
         /* min-height: 1000px; */
+        position: static;
     }
     
     header{
