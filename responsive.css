@@ -100,7 +100,7 @@
     .sec{
         position: relative;
         min-height: 100vh;
-        /* display: none; */
+        display: none;
     }
     
      .search{
@@ -538,12 +538,12 @@
     }
     .section_five{
         width: 80%;
-        height: 80vh;
+        height: 100vh;
         /* background: #000; */
-        position: relative;
+        position: fixed;
         left: 50%;
         transform: translateX(-50%);
-        display: none;
+        /* display: none; */
     }
     .section_five .items{
         width: 95%;
@@ -587,10 +587,11 @@
         text-decoration: none;
         color: #000;
     }
-    .section_five .items .divider{
+    .section_five .divider{
         border-bottom: 1px solid rgba(0, 0, 0, 0.3);
         width: 95%;
         position: absolute;
+        margin-top: 30px;
         /* left: 50%;
         transform: translateX(-50%); */
        
@@ -598,9 +599,9 @@
     .hide-element-on-keyboard {
         z-index: -1;
     }
-    .section_five .items button{
+    .section_five button{
         width: 100%;
-        margin-top: 15px;
+        margin-top: 45px;
         padding: 7px;
         border: none;
         font-size: 20px;
