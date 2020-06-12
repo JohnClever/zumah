@@ -743,12 +743,10 @@
         justify-content: center;
     }
     .section_seven .items form legend{
-       width: 50%;
-       height: 30px;
+       
         display: flex;
         margin: 20px;
        margin-top: 0;
-       /* background: #000; */
       
     }
     .section_seven .items form legend p{
@@ -758,11 +756,11 @@
        width: 20px;
        height: 15px;
        margin-left: 10px;
-       border-radius: 50%;
-       /* -webkit-appearance: none;
+       
+       -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
-        -ms-appearance: none; */
+        -ms-appearance: none;
     }
     .section_seven .items form select{
         width: 30%;
@@ -771,13 +769,15 @@
         border: none;
         background-color: #d3d3d37e;
         margin-left: 10px;
-        color: rgba(0, 0, 0, 0.6);     
+        color: rgba(0, 0, 0, 0.6);  
+       
         padding-left: 10px;  
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
         -ms-appearance: none;
     }
+    
     .section_seven .items .divider{
         border-bottom: 1px solid #000;
         width: 95%;
