@@ -547,7 +547,9 @@
     }
     .section_five .items{
         width: 95%;
-        height: 35%;
+        height: 40%;
+        min-height: 40%;
+        
         /* background-color: brown; */
         position: relative;
         top: 15%;
