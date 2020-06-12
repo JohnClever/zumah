@@ -679,135 +679,7 @@
         font-family: sans-serif;
         color: red;
     }
-    .section_seven{
-        width: 80%;
-        height: 70vh;
-        /* background: #000; */
-        position: fixed;
-        left: 50%;
-        transform: translateX(-50%);
-        /* display: none; */
-    }
-    /* .section_seven .items{
-        width: 100%;
-        height: 60%;
-        background-color: brown;
-        position: absolute;
-        top: 15%;
-        left: 50%;
-        transform: translateX(-50%);
-        position: fixed;
-      
-    } */
-    .section_seven form{
-        width: 100%;
-        height: 80%;
-        display: flex;
-        /* background: #000; */
-        flex-direction: column;
-        /* flex-flow: row wrap; */
-        /* align-items: center; */
-    }
-    .section_seven  form label{
-        text-align: left;
-        font-size: 15px;
-        width: 100%;
-        height: 20px;
-        margin-left: -1px;
-        padding-top: 10px;
-       /* background: #000; */
-    }
-    .section_seven  form input{
-        width: 95%;
-        height: 35px;
-        margin-top: 5px;
-        border: none;
-        background-color: #d3d3d37e;
-        padding-left: 20px;
-        color: #000;
-        max-height: 35px;
-        max-width: 95%;
-    }
-
-    .section_seven  form p {
-        text-align: center;
-        margin-top: 5px;
-        font-size: 12px;
-    }
-    .section_seven  form p a{
-        text-decoration: none;
-        color: #000;
-    }
-    .section_seven  form .birthday{
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-       
-    }
-    .section_seven  form .gender{
-        width: 100%;
-        /* background: #000; */
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-    }
-    .ll,.lf{
-        float: left;
-    }
-    .section_seven  form legend{
-       
-        
-        margin: 20px;
-       margin-top: 0;
-      
-    }
-    .section_seven  form legend p{
-        font-size: 15px;
-    }
-    .section_seven  form input[type="radio"]{
-       width: 20px;
-       height: 15px;
-       margin-left: 10px;
-/*        
-       -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-        -ms-appearance: none; */
-    }
-    .section_seven  form select{
-        width: 30%;
-        height: 35px;
-        margin-top: 5px;
-        border: none;
-        background-color: #d3d3d37e;
-        margin-left: 10px;
-        color: rgba(0, 0, 0, 0.6);  
-       max-width: 30%;
-        padding-left: 10px;  
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-        -ms-appearance: none;
-    }
-    
-    .section_seven  .divider{
-        border-bottom: 0.001em solid rgba(0, 0, 0, 0.4);
-        height: 0;
-        width: 95%;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);   
-    }
-    .section_seven  button{
-        width: 100%;
-        margin-top: 15px;
-        padding: 7px;
-        border: none;
-        font-size: 20px;
-        color: red;
-        background: #000;
-    }
+   
     footer{
         position: absolute;
         height: 20px;
@@ -818,7 +690,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        position: fixed;
+       
     }
     footer p{
         text-align: center;
