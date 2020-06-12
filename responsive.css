@@ -12,6 +12,7 @@
     
     html{
         scroll-behavior: smooth;
+        position: relative;
        
     }
     
@@ -20,7 +21,7 @@
         padding: 0;
         box-sizing: border-box;
         /* min-height: 1000px; */
-       
+       position: relative;
         height: 100vh;
     }
     
