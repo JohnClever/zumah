@@ -538,18 +538,18 @@
     }
     .section_five{
         width: 80%;
-        height: 70vh;
+        height: 80vh;
         /* background: #000; */
-        position: absolute;
+        position: relative;
         left: 50%;
         transform: translateX(-50%);
-        display: none;
+        /* display: none; */
     }
     .section_five .items{
         width: 95%;
         height: 35%;
         /* background-color: brown; */
-        position: absolute;
+        position: relative;
         top: 15%;
         left: 50%;
         transform: translateX(-50%);
@@ -565,7 +565,7 @@
     .section_five .items form input{
         width: 95%;
         height: 35px;
-        margin-top: 5px;
+        margin-top: 10px;
         border: none;
         background-color: #d3d3d37e;
         padding-left: 20px;
@@ -581,7 +581,7 @@
         color: #000;
     }
     .section_five .items .divider{
-        border-bottom: 1px solid #000;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
         width: 95%;
         position: absolute;
         left: 50%;
@@ -604,7 +604,7 @@
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        /* display: none; */
+        display: none;
     }
     .section_six .items{
         width: 90%;
@@ -654,7 +654,7 @@
        
     }
     .section_six .divider{
-        border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
         width: 85%;
         position: absolute;
         left: 50%;
