@@ -702,6 +702,7 @@
         height: 100%;
         display: flex;
         flex-direction: column;
+        flex-flow: row wrap;
         /* align-items: center; */
     }
     .section_seven .items form label{
@@ -801,12 +802,6 @@
         color: red;
         background: #000;
     }
-    
-
-
-
-
-
     footer{
         position: absolute;
         height: 20px;
