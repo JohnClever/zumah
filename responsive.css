@@ -545,9 +545,10 @@
         height: 35%;
         /* background-color: brown; */
         position: absolute;
-        top: 20%;
+        top: 15%;
         left: 50%;
         transform: translateX(-50%);
+        border-bottom: 1px solid #000;
     }
     .section_five .items form{
         width: 100%;
@@ -574,13 +575,15 @@
         text-decoration: none;
         color: #000;
     }
-    .section_five .items hr{
-        border-bottom: 1px solid #000;
+    /* .section_five .items hr{
+       
+        margin-top: 10px;
         width: 90%;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-    }
+       
+    } */
     .section_five .items hr:focus{
         display: none;
     }
