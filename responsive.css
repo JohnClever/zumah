@@ -575,11 +575,14 @@
         color: #000;
     }
     .section_five .items hr{
-        border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+        border-bottom: 1px solid #000;
         width: 90%;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
+    }
+    .section_five .items hr:focus{
+        display: none;
     }
     .section_five .items button{
         width: 100%;
