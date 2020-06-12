@@ -819,7 +819,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        position: fixed;
+        position: relative;
     }
     footer p{
         text-align: center;
